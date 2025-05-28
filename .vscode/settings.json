@@ -13,4 +13,5 @@
         "black"
     ],
     "editor.detectIndentation": false,
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
 }
