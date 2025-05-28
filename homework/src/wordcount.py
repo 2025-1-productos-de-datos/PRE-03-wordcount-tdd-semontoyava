@@ -1,4 +1,4 @@
-# obtain a list of files in the input directory
+# obtain a list of files in the input directoryy
 import os
 
 files_in_input_dir = os.listdir("data/input/")
