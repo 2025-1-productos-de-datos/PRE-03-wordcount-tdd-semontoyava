@@ -1,4 +1,8 @@
 {
+    "python.testing.pytestArgs":[
+        "."
+    ],
+   
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "[python]": {
@@ -13,5 +17,7 @@
         "black"
     ],
     "editor.detectIndentation": false,
-    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.testing.pytestArgs": [
+        "."
+    ],
 }

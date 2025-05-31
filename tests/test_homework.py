@@ -7,12 +7,10 @@ import subprocess
 def test_homework():
     """Test Word Count"""
 
-    # Carpetas y archivos del paquete homework v
-
     for path in [
         "homework/src",
         "homework/src/_internals",
-        "homework/src/_internals/wordcount.py",
+        "homework/src/_internals/count_words.py",
         "homework/src/_internals/preprocess_lines.py",
         "homework/src/_internals/read_all_lines.py",
         "homework/src/_internals/split_into_words.py",
@@ -20,6 +18,7 @@ def test_homework():
     ]:
         if not os.path.exists(path):
             raise Exception(f"'{path}' directory does not exist")
+
     try:
         subprocess.run(
             ["python3", "-m", "homework", "data/input", "data/output"],

@@ -19,3 +19,4 @@ def parse_args():
     parsed_args = parser.parse_args()
 
     return parsed_args.input, parsed_args.output
+
