@@ -3,7 +3,7 @@ import os
 
 def test_migracion():
 
-
+    if not os.path.exists("data/output/results.tsv"):
         raise FileNotFoundError("El archivo results.tsv no existe en data/output")
 
     result = {}
