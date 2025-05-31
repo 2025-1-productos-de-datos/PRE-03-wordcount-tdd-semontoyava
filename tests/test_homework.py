@@ -12,7 +12,7 @@ def test_homework():
     for path in [
         "homework/src",
         "homework/src/_internals",
-        "homework/src/_internals/count_words.py",
+        "homework/src/_internals/wordcount.py",
         "homework/src/_internals/preprocess_lines.py",
         "homework/src/_internals/read_all_lines.py",
         "homework/src/_internals/split_into_words.py",
